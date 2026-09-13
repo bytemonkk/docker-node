@@ -9,4 +9,4 @@ app.get("/", (req, res) => {
 
 })
 
-app.listen(PORT, () => console.log(`Server started on PORT${PORT}`));
+app.listen(PORT, () => console.log(`Server started on PORT:${PORT}`));
